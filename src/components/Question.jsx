@@ -1,6 +1,6 @@
 import '../styles/Question.css';
 
-const Question = ({quiz, checkAnswer, qType})=>{
+const Question = ({quiz, checkAnswer})=>{
     const questionsAlphabets = ["A", "B", "C", "D"];
     return <>
         {

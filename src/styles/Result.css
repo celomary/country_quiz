@@ -1,0 +1,55 @@
+.result > h1 {
+    color: #F2F2F2;
+    font-size: 36px;
+    font-weight: 700;
+    
+}
+.result-body {
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 24px;
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-body img {
+    width: fit-content;
+    display: block;
+    margin-bottom: 70px;
+}
+
+.result-body > h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1D355D;
+    margin-bottom: 15px;
+}
+
+.result-body {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1D355D;
+}
+
+.total {
+    font-weight: 700;
+    font-size: 34px;
+    color: #60BF88;
+}
+
+.try-again-btn {
+    margin-top: 70px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    border: 2px solid #1D355D;
+    padding: 18px 60px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1D355D;
+    cursor: pointer;
+    background-color: transparent;
+}
